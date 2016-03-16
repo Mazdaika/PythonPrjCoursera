@@ -1,0 +1,37 @@
+# get headers from http://www.pythonlearn.com/code/intro-short.txt
+
+import urllib
+import socket
+import re
+
+goal_headers = dict.fromkeys(["Last-Modified", "ETag", "Content-Length", "Cache-Control", "Content-Type", "Date"])
+goal_headers2 = goal_headers
+
+
+# trying sockets
+s = socket.socket()
+s.connect(("www.pythonlearn.com",80))
+s.send("GET http://www.pythonlearn.com/code/intro-short.txt HTTP/1.0\n\n")
+page = ""
+while True:
+    d = s.recv(4086)
+    if not d:
+        break
+    page=page+d
+print page
+for header in goal_headers:
+    value = re.findall("\n"+header+":(.+)\n", page)
+    if value:
+        goal_headers[header] =  value[0].strip()
+
+# trying urllib
+ur = urllib.urlopen("http://www.pythonlearn.com/code/intro-short.txt")
+page2 = str(ur.headers)
+print page2
+for header in goal_headers2:
+    value = re.findall("\n"+header+":(.+)\n", page2)
+    if value:
+        goal_headers2[header] =  value[0].strip()
+
+if goal_headers == goal_headers2:
+    print "Success!"
