@@ -8,6 +8,7 @@
 
 import urllib
 import bs4
+import xml.etree.ElementTree as ET
 
 while True:
     url = raw_input("Enter url:")
@@ -16,11 +17,20 @@ while True:
         break
     except Exception as err:
         print "Enter a valid url!\n" + err.message
-
+# try Soup
 beautifulHtml = bs4.BeautifulSoup(html,"html.parser")
 spans = beautifulHtml.findAll("span")
+
 
 sum = 0
 for span in spans:
     sum = sum+int(span.get_text())
 print sum
+
+# try element tree
+parsed = ET.fromstring(html)
+spans2 = parsed.findall(".//span")
+sum2 = 0
+for span in spans2:
+    sum2 = sum2+int(span.text)
+print sum2

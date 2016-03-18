@@ -19,9 +19,15 @@
 import urllib
 import bs4
 from functions import fineurlopen
+import xml.etree.ElementTree as ET
 
+import re
 
-html = fineurlopen().read()
+regex = re.compile("<script>(.*?)</script>", re.DOTALL)
+
+html = fineurlopen("http://python-data.dr-chuck.net/known_by_Fikret.html").read()
+html15 = fineurlopen("http://python-data.dr-chuck.net/known_by_Fikret.html").read()
+html2 = regex.sub("", html15)
 count = raw_input("Enter count: ")
 pos = raw_input("Enter position: ")
 
@@ -30,3 +36,11 @@ for i in xrange(0,int(count)):
     links = soup.find_all('a')
     print links[int(pos)-1].get_text()
     html = urllib.urlopen(links[int(pos)-1].get("href")).read()
+
+
+for i in xrange(0,int(count)):
+    parsed = ET.fromstring(html2)
+    links = parsed.findall(".//a")
+    print links[int(pos)-1].text
+    html15 = urllib.urlopen(links[int(pos)-1].get("href")).read()
+    html2 = regex.sub("", html15)
