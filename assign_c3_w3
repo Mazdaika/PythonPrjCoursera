@@ -18,20 +18,22 @@ while True:
     if not d:
         break
     page=page+d
-print page
+
 for header in goal_headers:
     value = re.findall("\n"+header+":(.+)\n", page)
     if value:
         goal_headers[header] =  value[0].strip()
-
+s.close()
 # trying urllib
 ur = urllib.urlopen("http://www.pythonlearn.com/code/intro-short.txt")
 page2 = str(ur.headers)
-print page2
+
 for header in goal_headers2:
     value = re.findall("\n"+header+":(.+)\n", page2)
     if value:
         goal_headers2[header] =  value[0].strip()
-
+ur.close()
+print goal_headers
+print goal_headers2
 if goal_headers == goal_headers2:
     print "Success!"
