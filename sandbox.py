@@ -1,11 +1,6 @@
-dictionary = dict({"one":1,"two":2, "three":3, "four":3})
-
-biggest = None
-for value in dictionary.values():
-    if not biggest or value > biggest:
-        biggest = value
-
-print "Dictionary contents", dictionary
-print "The biggest value:", biggest
-print "The biggest value position in the list of values:", dictionary.values().index(biggest)
-print "Key with the biggest value:", dictionary.keys()[dictionary.values().index(biggest)]
+from colorama import Fore, Back, Style
+print(Fore.RED + 'some red text')
+print(Back.GREEN + 'and with a green background')
+print(Style.DIM + 'and in dim text')
+print(Style.RESET_ALL)
+print('back to normal now')
