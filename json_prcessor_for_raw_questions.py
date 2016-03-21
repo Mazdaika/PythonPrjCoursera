@@ -1,9 +1,5 @@
 import re
 import json
-import random
-
-# c:\python27\python sandbox.py
-
 
 def process_data():
     fh = open("quiz_raw.txt")

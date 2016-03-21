@@ -1,0 +1,242 @@
+{
+    "Q1": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which is the highest literary award of the world?", 
+        "variants": {
+            "A": "Nobel Prize", 
+            "C": "Pulitzer Prize", 
+            "B": "Booker Prize", 
+            "D": "Magsaysay Award"
+        }
+    }, 
+    "Q20": {
+        "answer": [
+            "C"
+        ], 
+        "text": "When was Mona Lisa painted by Leonardo da Vinci?", 
+        "variants": {
+            "A": "1431 AD", 
+            "C": "1504 AD", 
+            "B": "1492 AD", 
+            "D": "1556 AD"
+        }
+    }, 
+    "Q3": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which among the sources of energy tapped in India has shown the largest growth till the Eighth plan?", 
+        "variants": {
+            "A": "Hydro", 
+            "C": "Gas", 
+            "B": "Thermal", 
+            "D": "Nuclear"
+        }
+    }, 
+    "Q2": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which body of UNO gives advisory opinion on legal matters to the bodies and special agencies of the UNO?", 
+        "variants": {
+            "A": "The Security Council", 
+            "C": "Trusteeship Council", 
+            "B": "International Court of Justice", 
+            "D": "Secretariat"
+        }
+    }, 
+    "Q5": {
+        "answer": [
+            "C"
+        ], 
+        "text": "Which Bank has the maximum number of branches?", 
+        "variants": {
+            "A": "ICICI Bank", 
+            "C": "State Bank of India", 
+            "B": "HDFC Bank", 
+            "D": "State Bank of Patiala"
+        }
+    }, 
+    "Q4": {
+        "answer": [
+            "A"
+        ], 
+        "text": "When was Mandela inaugurated as first black President?", 
+        "variants": {
+            "A": "1994", 
+            "C": "2000", 
+            "B": "1999", 
+            "D": "None of the above"
+        }
+    }, 
+    "Q7": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which of the following are the important sects of Islam?", 
+        "variants": {
+            "A": "Catholics and Protestants", 
+            "C": "Mahayana and Hinayan", 
+            "B": "Sunnis and Shias", 
+            "D": "None of the above"
+        }
+    }, 
+    "Q6": {
+        "answer": [
+            "A"
+        ], 
+        "text": "Where is the sports stadium, Green Park, located?", 
+        "variants": {
+            "A": "Kanpur", 
+            "C": "Cuttack", 
+            "B": "Jamshedpur", 
+            "D": "Patiala"
+        }
+    }, 
+    "Q9": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which of the following agencies related to the United Nation was in existence before the Second World War?", 
+        "variants": {
+            "A": "Food and Agricultural Organisation", 
+            "C": "World Health Organisation", 
+            "B": "International Labour Organisation", 
+            "D": "International Monetary Fund"
+        }
+    }, 
+    "Q8": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which is the state with largest urban population?", 
+        "variants": {
+            "A": "West Bengal", 
+            "C": "Kerala", 
+            "B": "Maharashtra", 
+            "D": "Goa"
+        }
+    }, 
+    "Q15": {
+        "answer": [
+            "B"
+        ], 
+        "text": "Which amongst the following mammals has the highest metabolic rate in terms of oxygen consumption (mm3/g hour)?", 
+        "variants": {
+            "A": "Dog", 
+            "C": "Rabbit", 
+            "B": "Mouse", 
+            "D": "Rat"
+        }
+    }, 
+    "Q14": {
+        "answer": [
+            "D"
+        ], 
+        "text": "Which language is spoken in Karnataka?", 
+        "variants": {
+            "A": "Marathi", 
+            "C": "Malayalam", 
+            "B": "Hindi", 
+            "D": "Kannada"
+        }
+    }, 
+    "Q17": {
+        "answer": [
+            "A"
+        ], 
+        "text": "Which is the place of worship for Judoists?", 
+        "variants": {
+            "A": "Synagogue", 
+            "C": "No church or temple", 
+            "B": "First temple", 
+            "D": "Monastery"
+        }
+    }, 
+    "Q16": {
+        "answer": [
+            "D"
+        ], 
+        "text": "Which is the sacred text of Hinduism?", 
+        "variants": {
+            "A": "The Vedas", 
+            "C": "The epics of the Mahabharata and the Ramayana", 
+            "B": "The Bhagavad Gita", 
+            "D": "All of the above"
+        }
+    }, 
+    "Q11": {
+        "answer": [
+            "A"
+        ], 
+        "text": "Which missile is designed to defend large installation like oil-fields etc. against enemy air attacks?", 
+        "variants": {
+            "A": "Akash", 
+            "C": "Agni", 
+            "B": "Nag", 
+            "D": "Prithvi"
+        }
+    }, 
+    "Q10": {
+        "answer": [
+            "B"
+        ], 
+        "text": "When was Zoroaster, the founder of Zoroastrianism born in Media(Iran)?", 
+        "variants": {
+            "A": "2000 BC", 
+            "C": "1075 BC", 
+            "B": "660 BC", 
+            "D": "740 BC"
+        }
+    }, 
+    "Q13": {
+        "answer": [
+            "A"
+        ], 
+        "text": "Which are the important minerals found in manipur?", 
+        "variants": {
+            "A": "Sillimanite, nickel, petroleum", 
+            "C": "Iron, lime, bauxite", 
+            "B": "Oil, coal, manganese", 
+            "D": "None of the above"
+        }
+    }, 
+    "Q12": {
+        "answer": [
+            "C"
+        ], 
+        "text": "When was Lord Buddha born?", 
+        "variants": {
+            "A": "586 BC", 
+            "C": "560 BC", 
+            "B": "1000 BC", 
+            "D": "750 BC"
+        }
+    }, 
+    "Q19": {
+        "answer": [
+            "B"
+        ], 
+        "text": "When was table tennis introduced in Olympics?", 
+        "variants": {
+            "A": "1896 at Athens", 
+            "C": "1924 at Paris", 
+            "B": "1988 at Seoul", 
+            "D": "1924 at Seoul"
+        }
+    }, 
+    "Q18": {
+        "answer": [
+            "C"
+        ], 
+        "text": "Which is the associated sport of Bombay Gold Cup?", 
+        "variants": {
+            "A": "Basketball", 
+            "C": "Hockey", 
+            "B": "Weightlifting", 
+            "D": "Football"
+        }
+    }
+}
